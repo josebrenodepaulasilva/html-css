@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simoplesmente aumente o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio src="midia/Free Me - NEFFEX.mp3" controls></audio>
+    <audio src="midia/Bite Me - NEFFEX.mp3"controls></audio>
+    <audio src="midia/Modern Attempt - TrackTribe.mp3" controls></audio>
+    <audio src="midia/Born a Rockstar - NEFFEX.mp3" controls></audio>
+    <audio src="midia/Don't Wanna Let Myself Down - NEFFEX.mp3" controls autoplay ></audio> <!--MP3 WAV OGG-->
+    <audio>
+        <source src="midia/Don't Wanna Let Myself Down - NEFFEX.mp3"  type="audio/mpeg">
+
+        <p>Infelizmente seu navegador não consegeu reproduzir áudio. <a href="midia/Don't Wanna Let Myself Down - NEFFEX.mp3"> clique aqui para baixar o arquivo </a></p>
+    </audio>
+    
+</body>
+</html>
